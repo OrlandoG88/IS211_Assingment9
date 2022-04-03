@@ -15,8 +15,8 @@ print(f'{headers[1].text.strip():<8} - {headers[2].text.strip():<8} - {headers[3
 
 for row in rows:
     cells = row.find_all('td')
-    #if not cells:
-        #continue
+    if not cells:
+        continue
 
 print(f'{cells[1].text.strip():<8} - {cells[2].text.strip():<8} - {cells[3].text.strip():<8}')
 
