@@ -18,7 +18,7 @@ for row in rows:
     if not cells:
         continue
 
-print(f'{cells[1].text.strip():<8} - {cells[2].text.strip():<8} - {cells[3].text.strip():<8}')
+    print(f'{cells[1].text.strip():<8} - {cells[2].text.strip():<8} - {cells[3].text.strip():<8}')
 
 
 
